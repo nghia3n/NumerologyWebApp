@@ -4,8 +4,8 @@ import Head from "next/head";
 export const Header: FC = () => {
    return (
       <Head>
-         <title>Numerology Web App</title>
-         <meta name="description" content="Numerology Web App" />
+         <title>Honu.vn - Thần số học & Tử vi</title>
+         <meta name="description" content="Honu.vn - Thần số học & Tử vi" />
          <link rel="icon" href="/Images/numerologyPNG.png" />
       </Head>
    );
