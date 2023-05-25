@@ -82,17 +82,47 @@ export const useProcessNumerology = (
             value: walksOfLife,
             name: "Đường đời",
          },
-         { key: "mission", value: mission, name: "Sứ mệnh (Mission)" },
-         { key: "soul", value: soul, name: "Linh hồn (Soul)" },
-         { key: "connect", value: connect, name: "Kết nối (connection)" },
+         { 
+			key: "soul", 
+			value: soul, 
+			name: "Linh hồn (Soul)" 
+		 },
+         {
+            key: "dateOfBirth",
+            value: dateOfBirth,
+            name: "Ngày sinh (Date Of Birth)",
+         },
+         {
+			key: "mission", 
+			value: mission, 
+			name: "Sứ mệnh (Mission)" 
+		 },
+
+         { 
+			key: "connect", 
+			value: connect, 
+			name: "Kết nối (connection)" 
+		 },
          {
             key: "personality",
             value: personality,
             name: "Nhân cách (Personality)",
          },
-         { key: "passion", value: passion, name: "Đam mê (Passion)" },
-         { key: "mature", value: mature, name: "Trưởng thành (Mature)" },
-         { key: "balance", value: balance, name: "Cân bằng (Balance)" },
+         { 
+			key: "passion", 
+			value: passion, 
+			name: "Đam mê (Passion)" 
+		 },
+         { 
+			key: "mature", 
+			value: mature, 
+			name: "Trưởng thành (Mature)" 
+		 },
+         { 
+			key: "balance", 
+			value: balance, 
+			name: "Cân bằng (Balance)" 
+		 },
          {
             key: "subconsciousPower",
             value: subconsciousPower,
@@ -118,11 +148,7 @@ export const useProcessNumerology = (
             value: challenges,
             name: "Thách thức (Challenges)",
          },
-         {
-            key: "dateOfBirth",
-            value: dateOfBirth,
-            name: "Ngày sinh (Date Of Birth)",
-         },
+
          {
             key: "yearIndividual",
             value: yearIndividual,
