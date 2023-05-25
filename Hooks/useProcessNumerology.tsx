@@ -87,28 +87,35 @@ export const useProcessNumerology = (
             value: dateOfBirth,
             name: "Ngày sinh",
          },
-		 
-         { 
-			key: "soul", 
-			value: soul, 
-			name: "Linh hồn" 
-		 },
          {
-            key: "missingNumbers",
-            value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu",
+            key: "yearIndividual",
+            value: yearIndividual,
+            name: "Năm cá nhân",
          },
+		 
+
          {
 			key: "mission", 
 			value: mission, 
 			name: "Sứ mệnh" 
 		 },
-
+         { 
+			key: "soul", 
+			value: soul, 
+			name: "Linh hồn" 
+		 },
 
          {
             key: "personality",
             value: personality,
             name: "Nhân cách",
+         },
+		 
+
+         {
+            key: "missingNumbers",
+            value: missingNumber.toString().replace(/\,/g, " "),
+            name: "Số thiếu",
          },
          { 
 			key: "passion", 
@@ -138,11 +145,7 @@ export const useProcessNumerology = (
          },
 
 
-         {
-            key: "yearIndividual",
-            value: yearIndividual,
-            name: "Năm cá nhân",
-         },
+
          {
             key: "monthIndividual",
             value: monthIndividual,
