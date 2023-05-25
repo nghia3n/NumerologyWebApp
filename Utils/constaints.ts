@@ -1,1 +1,1 @@
-export const Numerology = "Honu";
+export const Numerology = "Tra cứu Chỉ số";
