@@ -12,12 +12,12 @@ export const Footer: FC = () => {
             <Tooltip label={colorMode + " mode"}>
                <CustomCard>
                   <Image
-                     src="https://upanh.svvui.com/file/20230525054536-Honu-02.png"
+                     src="/Images/numerologyPNG.png"
                      alt="numerology logo"
                      width="50%"
                      height="50%"
                      placeholder="blur"
-                     blurDataURL="https://upanh.svvui.com/file/20230525054536-Honu-02.png"
+                     blurDataURL="/Images/numerologyPNG.png"
                      style={{
                         cursor: "pointer",
                      }}
