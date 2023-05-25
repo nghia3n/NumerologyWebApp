@@ -112,11 +112,6 @@ export const useProcessNumerology = (
          },
 		 
 
-         {
-            key: "missingNumbers",
-            value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu",
-         },
          { 
 			key: "passion", 
 			value: passion, 
@@ -145,6 +140,11 @@ export const useProcessNumerology = (
          },
 
 
+         {
+            key: "missingNumbers",
+            value: missingNumber.toString().replace(/\,/g, " "),
+            name: "Số thiếu",
+         },
 
          {
             key: "monthIndividual",
