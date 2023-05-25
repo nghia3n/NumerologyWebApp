@@ -97,12 +97,12 @@ export const useProcessNumerology = (
 			value: mission, 
 			name: "Sứ mệnh" 
 		 },
+         {
+            key: "missingNumbers",
+            value: missingNumber.toString().replace(/\,/g, " "),
+            name: "Số thiếu",
+         },
 
-         { 
-			key: "connect", 
-			value: connect, 
-			name: "Kết nối" 
-		 },
          {
             key: "personality",
             value: personality,
@@ -114,21 +114,21 @@ export const useProcessNumerology = (
 			name: "Đam mê" 
 		 },
          { 
-			key: "mature", 
-			value: mature, 
-			name: "Trưởng thành" 
+			key: "connect", 
+			value: connect, 
+			name: "Kết nối" 
 		 },
          { 
 			key: "balance", 
 			value: balance, 
 			name: "Cân bằng" 
 		 },
+         { 
+			key: "mature", 
+			value: mature, 
+			name: "Trưởng thành" 
+		 },
 
-         {
-            key: "missingNumbers",
-            value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu",
-         },
          {
             key: "rationalThinking",
             value: rationalThinking,
