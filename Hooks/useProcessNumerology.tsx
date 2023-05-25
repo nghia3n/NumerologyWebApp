@@ -90,7 +90,7 @@ export const useProcessNumerology = (
          {
             key: "yearIndividual",
             value: yearIndividual,
-            name: "Năm cá nhân",
+            name: "Năm 2023",
          },
 		 
 
