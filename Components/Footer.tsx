@@ -26,20 +26,7 @@ export const Footer: FC = () => {
                </CustomCard>
             </Tooltip>
 
-            <Tooltip label="Source code">
-               <CustomCard
-                  as="a"
-                  href="https://github.com/minhphuc010194/NumerologyWebApp"
-                  target="_blank"
-               >
-                  <Icon
-                     as={AiFillGithub}
-                     boxSize={12}
-                     border="3px solid"
-                     rounded="100%"
-                  />
-               </CustomCard>
-            </Tooltip>
+
          </Wrap>
       </footer>
    );
