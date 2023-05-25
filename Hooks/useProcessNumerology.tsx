@@ -138,18 +138,15 @@ export const useProcessNumerology = (
             value: rationalThinking,
             name: "Tư duy lý trí",
          },
-
-
-         {
-            key: "missingNumbers",
-            value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu",
-         },
-
          {
             key: "monthIndividual",
             value: monthIndividual,
             name: "Tháng cá nhân",
+         },
+         {
+            key: "missingNumbers",
+            value: missingNumber.toString().replace(/\,/g, " "),
+            name: "Số thiếu",
          },
          {
             key: "linkPersonalityAndSoul",
