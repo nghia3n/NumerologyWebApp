@@ -85,84 +85,84 @@ export const useProcessNumerology = (
          { 
 			key: "soul", 
 			value: soul, 
-			name: "Linh hồn (Soul)" 
+			name: "Linh hồn" 
 		 },
          {
             key: "dateOfBirth",
             value: dateOfBirth,
-            name: "Ngày sinh (Date Of Birth)",
+            name: "Ngày sinh",
          },
          {
 			key: "mission", 
 			value: mission, 
-			name: "Sứ mệnh (Mission)" 
+			name: "Sứ mệnh" 
 		 },
 
          { 
 			key: "connect", 
 			value: connect, 
-			name: "Kết nối (connection)" 
+			name: "Kết nối" 
 		 },
          {
             key: "personality",
             value: personality,
-            name: "Nhân cách (Personality)",
+            name: "Nhân cách",
          },
          { 
 			key: "passion", 
 			value: passion, 
-			name: "Đam mê (Passion)" 
+			name: "Đam mê" 
 		 },
          { 
 			key: "mature", 
 			value: mature, 
-			name: "Trưởng thành (Mature)" 
+			name: "Trưởng thành" 
 		 },
          { 
 			key: "balance", 
 			value: balance, 
-			name: "Cân bằng (Balance)" 
+			name: "Cân bằng" 
 		 },
          {
             key: "subconsciousPower",
             value: subconsciousPower,
-            name: "Sức mạnh tiềm thức (Subconscious Power)",
+            name: "Sức mạnh tiềm thức",
          },
          {
             key: "missingNumbers",
             value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu (Missing Numbers)",
+            name: "Số thiếu",
          },
          {
             key: "rationalThinking",
             value: rationalThinking,
-            name: "Tư duy lý trí (Rational Thinking)",
+            name: "Tư duy lý trí",
          },
          {
             key: "way",
             value: way,
-            name: "Chặng (Way)",
+            name: "Chặng",
          },
          {
             key: "challenges",
             value: challenges,
-            name: "Thách thức (Challenges)",
+            name: "Thách thức",
          },
 
          {
             key: "yearIndividual",
             value: yearIndividual,
-            name: "Năm cá nhân (Individual Year)",
+            name: "Năm cá nhân",
          },
          {
             key: "monthIndividual",
             value: monthIndividual,
-            name: "Tháng cá nhân (Individual Month)",
+            name: "Tháng cá nhân",
          },
          {
             key: "linkPersonalityAndSoul",
             value: linkPersonalityAndSoul,
-            name: "Liên kết nhân cách và linh hồn (Link Personality And Soul)",
+            name: "Nhân cách và linh hồn",
          },
       ];
    }, [fullName, birthDay]);
