@@ -6,7 +6,7 @@ const Home: NextPage = () => {
    return (
       <Layout>
          <div>
-            <Heading as="h3" textAlign="center" fontFamily="fantasy" pt={4}>
+            <Heading as="h3" textAlign="center" fontFamily="Roboto Slab" pt={4}>
                {NumerologyTxt}
             </Heading>
             <Box as="br" />
