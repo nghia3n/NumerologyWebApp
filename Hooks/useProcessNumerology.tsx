@@ -82,26 +82,28 @@ export const useProcessNumerology = (
             value: walksOfLife,
             name: "Đường đời",
          },
+         {
+            key: "dateOfBirth",
+            value: dateOfBirth,
+            name: "Ngày sinh",
+         },
+		 
          { 
 			key: "soul", 
 			value: soul, 
 			name: "Linh hồn" 
 		 },
          {
-            key: "dateOfBirth",
-            value: dateOfBirth,
-            name: "Ngày sinh",
+            key: "missingNumbers",
+            value: missingNumber.toString().replace(/\,/g, " "),
+            name: "Số thiếu",
          },
          {
 			key: "mission", 
 			value: mission, 
 			name: "Sứ mệnh" 
 		 },
-         {
-            key: "missingNumbers",
-            value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu",
-         },
+
 
          {
             key: "personality",
