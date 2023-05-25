@@ -123,11 +123,7 @@ export const useProcessNumerology = (
 			value: balance, 
 			name: "Cân bằng" 
 		 },
-         {
-            key: "subconsciousPower",
-            value: subconsciousPower,
-            name: "Sức mạnh tiềm thức",
-         },
+
          {
             key: "missingNumbers",
             value: missingNumber.toString().replace(/\,/g, " "),
@@ -138,16 +134,7 @@ export const useProcessNumerology = (
             value: rationalThinking,
             name: "Tư duy lý trí",
          },
-         {
-            key: "way",
-            value: way,
-            name: "Chặng",
-         },
-         {
-            key: "challenges",
-            value: challenges,
-            name: "Thách thức",
-         },
+
 
          {
             key: "yearIndividual",
