@@ -28,8 +28,7 @@ export const Footer: FC = () => {
 
 
          </Wrap>
-			Copyright © 2009 SVCorp - 2014 Gia Ngọc Corp | Email: gn@svcorp.vn - Tel: (024).22.333.222.
-			Trụ sở: Lô E3, Khu X4, Phố Dương Khuê, Phường Mai Dịch, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam.
+			© 2023 SVCorp | Phone: (+84).987.42.3333 | Address: Lô E3 Dương Khuê, Mai Dịch, Cầu Giấy, Hà Nội.
       </footer>
    );
 };
