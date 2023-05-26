@@ -27,7 +27,7 @@ export const Footer: FC = () => {
             </Tooltip>
 
 
-         </Wrap>
+         </Wrap> Công ty
       </footer>
    );
 };
