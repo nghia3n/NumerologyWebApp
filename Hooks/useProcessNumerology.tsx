@@ -88,13 +88,6 @@ export const useProcessNumerology = (
             name: "Ngày sinh",
          },
          {
-            key: "yearIndividual",
-            value: yearIndividual,
-            name: "Năm 2023",
-         },
-		 
-
-         {
 			key: "mission", 
 			value: mission, 
 			name: "Sứ mệnh" 
@@ -104,7 +97,11 @@ export const useProcessNumerology = (
 			value: soul, 
 			name: "Linh hồn" 
 		 },
-
+         {
+            key: "yearIndividual",
+            value: yearIndividual,
+            name: "Năm 2023",
+         },
          {
             key: "personality",
             value: personality,
