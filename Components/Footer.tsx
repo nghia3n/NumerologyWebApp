@@ -28,7 +28,7 @@ export const Footer: FC = () => {
 
 
          </Wrap>
-			© 2023 Nghĩa 3n | Zalo: 0987.42.3333
+			Copyright © Nghĩa 3n
       </footer>
    );
 };
