@@ -1,1 +1,1 @@
-export const Numerology = "Nhập theo CMND/CCCD:";
+export const Numerology = "Nhập theo CCCD:";
