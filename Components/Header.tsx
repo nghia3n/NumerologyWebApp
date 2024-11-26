@@ -4,8 +4,8 @@ import Head from "next/head";
 export const Header: FC = () => {
    return (
       <Head>
-         <title>Honu.vn - Tra cứu Chỉ số Của bạn</title>
-         <meta name="description" content="Nghĩa 3n - Tra cứu Bộ 3 Chỉ số" />
+         <title>Tra cứu Chỉ số của bạn</title>
+         <meta name="description" content="Tra cứu Chỉ số của bạn" />
          <link rel="icon" href="/Images/numerologyPNG.png" />
       </Head>
    );
