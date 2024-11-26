@@ -28,7 +28,7 @@ export const Footer: FC = () => {
 
 
          </Wrap>
-			// Copyright © Nghĩa 3n
+			
       </footer>
    );
 };
