@@ -68,7 +68,7 @@ export const Numerology: FC = () => {
                borderColor={colorBorder}
             >
                <Box as="legend" fontSize={20} fontWeight={800} color="red.400">
-                  Kết quả:
+                  Bộ 3 Chỉ số:
                </Box>
 
                <Wrap spacing="10px" justify="center" pb={2}>
