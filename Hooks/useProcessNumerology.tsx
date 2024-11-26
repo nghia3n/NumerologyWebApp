@@ -92,64 +92,7 @@ export const useProcessNumerology = (
 			value: mission, 
 			name: "Sứ mệnh" 
 		 },
-         { 
-			key: "soul", 
-			value: soul, 
-			name: "Linh hồn" 
-		 },
-         {
-            key: "yearIndividual",
-            value: yearIndividual,
-            name: "Năm 2023",
-         },
-         {
-            key: "personality",
-            value: personality,
-            name: "Nhân cách",
-         },
-		 
-
-         { 
-			key: "passion", 
-			value: passion, 
-			name: "Đam mê" 
-		 },
-         { 
-			key: "connect", 
-			value: connect, 
-			name: "Kết nối" 
-		 },
-         { 
-			key: "balance", 
-			value: balance, 
-			name: "Cân bằng" 
-		 },
-         { 
-			key: "mature", 
-			value: mature, 
-			name: "Trưởng thành" 
-		 },
-
-         {
-            key: "rationalThinking",
-            value: rationalThinking,
-            name: "Tư duy lý trí",
-         },
-         {
-            key: "monthIndividual",
-            value: monthIndividual,
-            name: "Tháng cá nhân",
-         },
-         {
-            key: "missingNumbers",
-            value: missingNumber.toString().replace(/\,/g, " "),
-            name: "Số thiếu",
-         },
-         {
-            key: "linkPersonalityAndSoul",
-            value: linkPersonalityAndSoul,
-            name: "Nhân cách và linh hồn",
-         },
+         
       ];
    }, [fullName, birthDay]);
    return data;
