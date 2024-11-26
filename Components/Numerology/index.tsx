@@ -22,7 +22,7 @@ export const Numerology: FC = () => {
    const color = useColorModeValue("black", "white");
    const colorBorder = useColorModeValue("gray.200", "gray.600");
    const refInputName = useRef<HTMLInputElement>(null);
-   const [name, setName] = useState<string>("Nguyễn Ngọc Nghĩa");
+   const [name, setName] = useState<string>("Nguyễn Ngọc Anh");
    const [birth, setBirth] = useState<string>("1990-11-16");
    const deferredName = useDeferredValue(name);
    const deferredBirth = useDeferredValue(birth);
