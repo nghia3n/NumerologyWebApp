@@ -28,7 +28,7 @@ export const Footer: FC = () => {
 
 
          </Wrap>
-			© 2023 SVCorp | Phone: (+84).987.42.3333 | Address: Số 12, Khu X4, Mai Dịch, Cầu Giấy, Hà Nội.
+			© 2023 Nghĩa 3n | Zalo: 0987.42.3333
       </footer>
    );
 };
