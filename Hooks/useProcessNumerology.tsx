@@ -83,14 +83,14 @@ export const useProcessNumerology = (
             name: "Đường đời",
          },
          {
-            key: "dateOfBirth",
-            value: dateOfBirth,
-            name: "Ngày sinh",
-         },
-         {
 			key: "mission", 
 			value: mission, 
 			name: "Sứ mệnh" 
+		 },
+		 { 	key: "soul", 
+			value: soul, 
+			name: "Linh hồn", 
+			name_en: "Soul" 
 		 },
          
       ];
