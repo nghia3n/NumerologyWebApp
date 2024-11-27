@@ -80,7 +80,7 @@ export const useProcessNumerology = (
          {
             key: "walksOfLife",
             value: walksOfLife,
-            name: "Đường đời",
+            name: "Chủ đạo",
          },
          {
 			key: "mission", 
